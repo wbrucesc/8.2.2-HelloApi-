@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const sequelize = require('sequelize');
 
 const app = express();
-const router = require('router');
+const router = require('./router');
 
 app.use(bodyParser.json()); //enable app to read info coming in from request body
 
