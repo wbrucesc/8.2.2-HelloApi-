@@ -7,9 +7,9 @@
     "dialect": "postgres"
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
+    "username": "rest_api",
+    "password": "1234",
+    "database": "rest_api_db",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
